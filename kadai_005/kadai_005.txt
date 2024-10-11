@@ -1,0 +1,30 @@
+24  cd ..
+   25  mkdir git_challenge
+   26  cd git_challenge
+   27  git init
+   28  echo "Hello,world!" >> hello_world.txt
+   29  ls
+   30  git status
+   31  git add hello_world.txt
+   32  git status
+   33  git commit -m "hello_world.txt
+を追加　"
+   34  git log
+   35  git commit -m "hello_world"
+   36  git config --global user.email "fit.13s.pear1white.mode1.mugen@gmail.com"
+   37  git config --global user.name "hiro"
+   38  git commit -m "hello_world"
+   39  git push
+   40  git remote add git_challenge https://github.com/hiro-2024/git_challenge.git
+   41  git push
+   42  git config --global push.default current
+   43  git push
+   44  git push -f
+   45  echo "こんにちは、世界！" >> hello_world.txt
+   46  git add hello_world.txt
+   47  git commit -m "日本語訳を追記"
+   48  git log --oneline
+   49  ls
+   50  mkdir kadai_005
+   51  code kadai_005.txt
+   52  history
